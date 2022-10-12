@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     font-family: "BPG Nino Mtavruli", sans-serif;
     font-size: 40px;
 }
@@ -13,4 +13,53 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 700;
+} */
+
+h2 {
+    margin-bottom: 32 px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    display: block;
+}
+
+h3 {
+    font-size: 23px;
+    color: #3d58a6;
+    margin-bottom: 17px;
+}
+
+.left-card,
+.right-card {
+
+    width: 570px;
+    height: 225px;
+    background-color: rgb(200, 194, 194);
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 14px 24px 20px;
+
+}
+
+p {
+    display: inline-block;
+    width: 355px;
+    height: 145px;
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 25px;
+}
+
+img {
+    margin-right: 60px;
+    vertical-align: top;
+}
+
+
+.cards {
+    margin-top: 32px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
